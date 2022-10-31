@@ -10,7 +10,7 @@
 
 namespace WebQuanLySanPham
 {
-    public partial class HotProduct
+    public partial class ProductInformation
     {
     }
 }

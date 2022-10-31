@@ -140,6 +140,7 @@
     <Content Include="Assets\client\img__products\img__iphone14.png" />
     <Content Include="Assets\client\img__products\img__nokia11.png" />
     <Content Include="Assets\client\img__products\img__oppoZeno6.png" />
+    <Content Include="Assets\client\img__products\img__productInfo--iphone 14.png" />
     <Content Include="Assets\client\img__products\img__samsungS22.png" />
     <Content Include="Assets\client\img__products\img__vivoV21.png" />
     <Content Include="Assets\client\img__products\img__xiaomi12t.png" />
@@ -174,8 +175,9 @@
     <Content Include="Admin\Views\Admin.Master" />
     <Content Include="Home.Master" />
     <Content Include="AllProduct.Master" />
+    <Content Include="ProductInfo.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="HotProduct.aspx" />
+    <Content Include="ProductInformation.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -290,18 +292,25 @@
     <Compile Include="Home.Master.designer.cs">
       <DependentUpon>Home.Master</DependentUpon>
     </Compile>
-    <Compile Include="HotProduct.aspx.cs">
-      <DependentUpon>HotProduct.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="HotProduct.aspx.designer.cs">
-      <DependentUpon>HotProduct.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Models\ConnectionDb.cs" />
     <Compile Include="Models\Producer.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\User.cs" />
+    <Compile Include="ProductInfo.Master.cs">
+      <DependentUpon>ProductInfo.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductInfo.Master.designer.cs">
+      <DependentUpon>ProductInfo.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ProductInformation.aspx.cs">
+      <DependentUpon>ProductInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductInformation.aspx.designer.cs">
+      <DependentUpon>ProductInformation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\UserService.cs" />
   </ItemGroup>
